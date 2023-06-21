@@ -93,6 +93,10 @@ footer {
 }
 
 .email_btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     cursor: pointer;
     font-size: 20px;
     height: 45px;
@@ -101,6 +105,7 @@ footer {
     color: white;
     border-color: #EC37C4;
     background-color: #EC37C4;
+    text-decoration: none;
 }
 
 .cols {
@@ -206,7 +211,12 @@ footer {
 
 
     .email_btn {
+        display: grid;
+        justify-content: center;
         cursor: pointer;
+        align-items: center;
+        text-align: center;
+        vertical-align:middle;
         font-size: 16px;
         height: 36px;
         width: 140px;
@@ -214,5 +224,6 @@ footer {
         color: white;
         border-color: #EC37C4;
         background-color: #EC37C4;
+        text-decoration: none;
     }
 }
