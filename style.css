@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #0F0E26;
+
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #0F0E26;
+}
+
+.phutuslogo {
+    width: 140px;
+    height: 70px;
+}
+
+.line1 {
+    align-items: center;
+}
+
+.midsection {
+    padding: 50px 30px 30px 30px;
+    background: #0F0E26;
+    min-height: 70%;
+
+}
+
+.col1,
+.col3 {
+    padding-top: 110px;
+}
+
+.col1 .texth01 {
+    font-size: 64px;
+    font-style: Nunito;
+    color: white;
+}
+
+.texth02 {
+    color: #4B47FF;
+}
+
+.texth03 {
+    color: #EC37C4;
+}
+
+.col2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo2 {
+    width: 320px;
+    height: 150px;
+}
+
+.com {
+    font-size: 40px;
+    color: white;
+    padding-left: 200px;
+    margin-top: -55px;
+}
+
+footer {
+    background-color: #0F0E26;
+    max-height: auto;
+    min-height: 200px;
+
+}
+
+.footer-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.footer-text {
+    font-style: Nunito;
+    font-size: 28px;
+    font-weight: lighter;
+    color: white;
+    padding-right: 25px;
+}
+
+.email_btn {
+    cursor: pointer;
+    font-size: 20px;
+    height: 45px;
+    width: 180px;
+    border-radius: 10px;
+    color: white;
+    border-color: #EC37C4;
+    background-color: #EC37C4;
+}
+
+.cols {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Media Queries */
+
+@media(max-width:1190px) {
+
+    .midsection {
+        padding-bottom: 30px;
+        background: #0F0E26;
+    }
+
+    .col1 {
+        padding-top: 5px;
+    }
+
+    .cols {
+        display: block;
+        text-align: center;
+    }
+
+    .col2 img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .col1 .texth01 {
+        font-size: 64px !important;
+        font-style: Nunito;
+        color: white;
+    }
+
+    .col3 {
+        padding-top: 30px;
+    }
+
+    .footer {
+        padding-top: 20px;
+    }
+
+
+}
+
+@media(max-width:790px) {
+
+    .midsection {
+        padding-bottom: 5px;
+    }
+
+    .col2 {
+        padding-top: 20px;
+    }
+
+    .col1 .texth01 {
+        font-size: 48px !important;
+        font-style: Nunito;
+        color: white;
+    }
+
+    .midsection {
+        padding: 5px 10px 30px 30px;
+        background: #0F0E26;
+        min-height: 70%;
+
+    }
+}
+
+@media(max-width:750px) {
+    .col2 {
+        padding-top: 20px;
+    }
+
+    .col2 img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media(max-width:650px) {
+    .footer-text {
+        font-size: 14px;
+    }
+
+    .footer-line {
+        padding: 10% 0;
+    }
+
+    .com {
+
+        padding-left: 180px;
+
+    }
+
+
+    .email_btn {
+        cursor: pointer;
+        font-size: 16px;
+        height: 36px;
+        width: 140px;
+        border-radius: 10px;
+        color: white;
+        border-color: #EC37C4;
+        background-color: #EC37C4;
+    }
+}
