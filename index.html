@@ -33,11 +33,17 @@
             <hr class="line1">
             <div class="footer-line">
                 <h3 class="footer-text">In case of any information or query</h3>
-                <a href="mailto:info@phutus.com"class="email_btn">Email Us</a>
+                <a onclick="openEmailApp()" class="email_btn">Email Us</a>
                     
             </div>
         </footer>
     </div>
+
+    <script>
+        function openEmailApp() {
+          window.open('mailto:info@phutus.com');
+        }
+      </script>
 
 </body>
 
