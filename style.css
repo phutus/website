@@ -93,6 +93,10 @@ footer {
 }
 
 .email_btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     cursor: pointer;
     font-size: 20px;
     height: 45px;
@@ -206,7 +210,12 @@ footer {
 
 
     .email_btn {
+        display: grid;
+        justify-content: center;
         cursor: pointer;
+        align-items: center;
+        text-align: center;
+        vertical-align:middle;
         font-size: 16px;
         height: 36px;
         width: 140px;
