@@ -8,14 +8,14 @@ body {
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #0F0E26;
+    background-color: #ffffff;
 
 }
 
 .navbar {
     width: 100%;
     padding: 10px 10px;
-    background-color: #0F0E26;
+    background-color: #00C2CB;
 }
 
 .phutuslogo {
@@ -29,7 +29,7 @@ body {
 
 .midsection {
     padding: 50px 30px 30px 30px;
-    background: #0F0E26;
+    background: #ffffff;
     min-height: 70%;
 
 }
@@ -42,15 +42,15 @@ body {
 .col1 .texth01 {
     font-size: 64px;
     font-style: Nunito;
-    color: white;
+    color: #00C2CB;
 }
 
 .texth02 {
-    color: #4B47FF;
+    color: #00C2CB;
 }
 
 .texth03 {
-    color: #EC37C4;
+    color: #046266;
 }
 
 .col2 img {
@@ -65,13 +65,13 @@ body {
 
 .com {
     font-size: 40px;
-    color: white;
+    color: #046266;
     padding-left: 200px;
     margin-top: -55px;
 }
 
 footer {
-    background-color: #0F0E26;
+    background-color:#ffffff;
     max-height: auto;
     min-height: 200px;
 
@@ -81,14 +81,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .footer-text {
     font-style: Nunito;
     font-size: 28px;
     font-weight: lighter;
-    color: white;
+    color: #046266;
     padding-right: 25px;
 }
 
@@ -103,9 +103,14 @@ footer {
     width: 180px;
     border-radius: 10px;
     color: white;
+<<<<<<< Updated upstream
     border-color: #EC37C4;
     background-color: #EC37C4;
     text-decoration: none;
+=======
+    border-color: #046266;
+    background-color: #046266;
+>>>>>>> Stashed changes
 }
 
 .cols {
@@ -125,7 +130,6 @@ footer {
 
     .midsection {
         padding-bottom: 30px;
-        background: #0F0E26;
     }
 
     .col1 {
@@ -145,7 +149,7 @@ footer {
     .col1 .texth01 {
         font-size: 64px !important;
         font-style: Nunito;
-        color: white;
+        
     }
 
     .col3 {
@@ -172,12 +176,11 @@ footer {
     .col1 .texth01 {
         font-size: 48px !important;
         font-style: Nunito;
-        color: white;
+      
     }
 
     .midsection {
         padding: 5px 10px 30px 30px;
-        background: #0F0E26;
         min-height: 70%;
 
     }
@@ -221,9 +224,12 @@ footer {
         height: 36px;
         width: 140px;
         border-radius: 10px;
+<<<<<<< Updated upstream
         color: white;
         border-color: #EC37C4;
         background-color: #EC37C4;
         text-decoration: none;
+=======
+>>>>>>> Stashed changes
     }
 }
