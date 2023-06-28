@@ -1,7 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @font-face {
-  font-family:'phutusfont'; src: url(./fonts/Rubrik\ 400.otf)format('opentype');
+  font-family: "phutusfont";
+  src: url(./fonts/Rubrik\ 400.otf) format("opentype");
 }
 
 :root {
@@ -15,8 +16,8 @@
   box-sizing: border-box;
   margin: 0%;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -132,7 +133,7 @@ body {
 
 .leftsection span {
   color: var(--primary);
-  font-family:'phutusfont';
+  font-family: "phutusfont";
 }
 
 .leftsection img {
@@ -164,8 +165,8 @@ body {
   justify-content: space-around;
 }
 
-.d365cards :hover{
-  background-color:var(--tertiary);
+.d365cards :hover {
+  background-color: var(--tertiary);
   color: white;
   animation: grow;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -208,7 +209,7 @@ body {
   font-family: Poppins;
   font-size: 32px;
   padding: 30px;
-  margin-top:40px;
+  margin-top: 40px;
   text-align: center;
   color: var(--secondary);
 }
@@ -406,28 +407,27 @@ body {
   font-size: 18px;
   margin-top: 30px;
 }
-.social h4{
-  font-family:Poppins;
+.social h4 {
+  font-family: Poppins;
   font-weight: 800;
 }
 
-.socialvector{
-  text-align:center;
-  padding-left:60px;
+.socialvector {
+  text-align: center;
+  padding-left: 60px;
 }
 
 footer {
   text-align: center;
   margin-block: 30px;
-  color:var(--tertiary);
+  color: var(--tertiary);
   font-family: Poppins;
 }
 
 /* Responsive Code Here */
 
-@media (max-width:700px) {
-
+@media (max-width: 700px) {
   .leftsection img {
-  width:420px;
+    width: 420px;
   }
 }
