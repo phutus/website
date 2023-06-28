@@ -1,1 +1,1 @@
-Under maintenance Page for website "Phutus.com"
+Homepage for Phutus.com
